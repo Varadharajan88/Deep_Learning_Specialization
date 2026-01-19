@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+*.ipynb_checkpoints
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+conda_env/
+
+# Data files (uncomment if you want to ignore data)
+# *.csv
+# *.h5
+# *.hdf5
+# *.npy
+# *.npz
+# data/
+# datasets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files (uncomment if you want to ignore saved models)
+# *.pkl
+# *.h5
+# *.pb
+# models/
+# checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
