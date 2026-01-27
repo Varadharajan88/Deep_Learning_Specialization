@@ -1,6 +1,6 @@
 # Course 1: Neural Networks and Deep Learning
 
-**Date Started:** YYYY-MM-DD
+**Date Started:** 2026-01-19
 
 ---
 
@@ -10,6 +10,7 @@
 - What is a neural network?
 - Supervised learning with neural networks
 - Why is deep learning taking off?
+![alt text](image-5.png)
 
 ### Key Concepts & Definitions
 - **Neural Network**: A computational model inspired by biological neural networks
@@ -23,7 +24,14 @@
 | $a = g(z)$ | Activation function |
 
 ### Examples
-- Worked example 1: ...
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+
+
 - Worked example 2: ...
 
 ### Questions I Still Have
@@ -36,15 +44,46 @@
 
 ### Lecture Outline
 - Binary classification
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+Where m is the number of training examples
+![alt text](image-9.png)
 - Logistic regression
+Used for Binary Classification
+![alt text](image-10.png)
+Logistic Regression Loss Function
+![alt text](image-11.png)
 - Gradient descent
+- Derivatives
+![alt text](image-13.png)
 - Computation graph
+- Vectorization
+
 
 ### Key Concepts & Definitions
 - **Logistic Regression**: Classification algorithm using sigmoid activation
 - **Gradient Descent**: Optimization algorithm to minimize cost function
+![alt text](image-12.png)
+Function is convex. 
 - **Forward Propagation**: Computing predictions from input to output
 - **Backward Propagation**: Computing gradients from output to input
+- ** Loss Function** :
+Computes error for single training sample
+- ** Cost Function **  : 
+Average of loss functions over the full training set
+
+![alt text](image-14.png)
+
+### Tips & Tricks
+- **Avoid Rank 1 Arrays**: In Python/NumPy, always use explicit row vectors `(1, n)` or column vectors `(n, 1)` instead of rank 1 arrays `(n,)`. Rank 1 arrays can cause unexpected broadcasting behavior and bugs in deep learning implementations.
+  - ❌ Bad: `a = np.random.randn(5)` → shape is `(5,)` (rank 1 array)
+  - ✅ Good: `a = np.random.randn(5, 1)` → shape is `(5, 1)` (column vector)
+  - ✅ Good: `a = np.random.randn(1, 5)` → shape is `(1, 5)` (row vector)
+  - Use `a.reshape(5, 1)` or `a.reshape(1, 5)` to convert rank 1 arrays to proper vectors
+  - Always check shapes with `assert(a.shape == (5, 1))` to catch these issues early
+
+![Python/NumPy Vectors - Best Practices](image-15.png)
 
 ### Important Formulas
 | Formula | Meaning / Use |
