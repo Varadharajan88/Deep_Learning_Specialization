@@ -1,0 +1,2 @@
+# Track video files with Git LFS (keeps repo small, stores files on LFS server)
+*.mp4 filter=lfs diff=lfs merge=lfs -text

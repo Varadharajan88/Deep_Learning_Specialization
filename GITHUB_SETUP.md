@@ -82,3 +82,27 @@ git remote remove origin
 ```bash
 git remote -v
 ```
+
+---
+
+## Lecture Videos (Git LFS)
+
+Lecture videos (`.mp4`) are tracked with **Git LFS** so the repo stays small. One-time setup:
+
+### Install Git LFS
+- **macOS (Homebrew):** `brew install git-lfs`
+- **Windows:** Download from [git-lfs.github.com](https://git-lfs.github.com/)
+- Then run: `git lfs install` (once per machine)
+
+### After cloning
+```bash
+git lfs pull   # download all LFS files (e.g. lecture videos)
+```
+
+### Adding new videos
+Videos are auto-tracked via `.gitattributes`. Add and commit as usual:
+```bash
+git add "Lecture Videos/SomeLecture.mp4"
+git commit -m "Add lecture video"
+git push
+```

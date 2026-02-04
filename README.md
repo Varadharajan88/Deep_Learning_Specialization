@@ -19,6 +19,50 @@ This repository contains my notes, projects, and resources while completing the 
     - `exercises.md`: Exercise solutions and practice problems
 - `PROJECTS/`: Hands-on projects and assignments from the courses
 - `RESOURCES/`: Supplementary materials (papers, datasets, external tutorials)
+- `Lecture Videos/`: Course lecture videos (tracked with [Git LFS](https://git-lfs.github.com/) for large files)
+
+## Lecture Videos
+
+Lecture videos are stored in `Lecture Videos/` and tracked with **Git LFS**. After cloning, run `git lfs pull` to download the video files. If you don't need the videos, you can skip LFS pull.
+
+### Course 1: Neural Networks and Deep Learning
+
+**Week 1 – Introduction to Deep Learning**
+- [Lecture 3](Lecture%20Videos/Lecture%203.mp4)
+- [Lecture 4](Lecture%20Videos/Lecture%204.mp4)
+
+**Week 2 – Neural Networks Basics**
+- [Week 2 – Lecture 1](Lecture%20Videos/Week2-Lec1.mp4)
+- [Week 2 – Lecture 2](Lecture%20Videos/Week2-Lec2.mp4)
+- [Week 2 – Lecture 3](Lecture%20Videos/Week2-Lec3.mp4)
+- [Week 2 – Lecture 4](Lecture%20Videos/Week2-Lec4.mp4)
+- [Week 2 – Lecture 5](Lecture%20Videos/Week2-Lec5.mp4)
+- [Week 2 – Lecture 6](Lecture%20Videos/Week2-Lec6.mp4)
+- [Week 2 – Lecture 7](Lecture%20Videos/Week2-Lec7.mp4)
+- [Week 2 – Lecture 8](Lecture%20Videos/Week2-Lec8.mp4)
+- [Week 2 – Lecture 9](Lecture%20Videos/Week2-Lec9.mp4)
+- [Week 2 – Lecture 10](Lecture%20Videos/Week2-Lec10.mp4)
+- [Week 2 – Lecture 11](Lecture%20Videos/Week2-Lec11.mp4)
+- [Week 2 – Lecture 12](Lecture%20Videos/Week2-Lec12.mp4)
+- [Week 2 – Lecture 13](Lecture%20Videos/Week2-Lec13.mp4)
+- [Week 2 – Lecture 14](Lecture%20Videos/Week2-Lec14.mp4)
+- [Week 2 – Lecture 15](Lecture%20Videos/Week2-Lec15.mp4)
+- [Week 2 – Lecture 16](Lecture%20Videos/Week2-Lec16.mp4)
+- [Week 2 – Lecture 17](Lecture%20Videos/Week2-Lec17.mp4)
+- [Week 2 – Lecture 18](Lecture%20Videos/Week2-Lec18.mp4)
+
+**Week 3 – Shallow Neural Networks**
+- [Week 3 – Lecture 1](Lecture%20Videos/Week3-Lec1.mp4)
+- [Week 3 – Lecture 2](Lecture%20Videos/Week3-Lec2.mp4)
+- [Week 3 – Lecture 3](Lecture%20Videos/Week3-Lec3.mp4)
+- [Week 3 – Lecture 4](Lecture%20Videos/Week3-Lec4.mp4)
+- [Week 3 – Lecture 6](Lecture%20Videos/Week3-Lec6.mp4)
+- [Week 3 – Lecture 7](Lecture%20Videos/Week3-Lec7.mp4)
+- [Week 3 – Lecture 8](Lecture%20Videos/Week3-Lec8.mp4)
+- [Week 3 – Lecture 9](Lecture%20Videos/Week3-Lec9.mp4)
+- [Week 3 – Lecture 10](Lecture%20Videos/Week3-Lec10.mp4)
+- [Week 3 – Lecture 11](Lecture%20Videos/Week3-Lec11.mp4)
+- [Week 3 – Lecture 12](Lecture%20Videos/Week3-Lec12.mp4)
 
 ## How I Use This Repo
 
@@ -32,6 +76,9 @@ This repository contains my notes, projects, and resources while completing the 
 ```bash
 git clone <your-repo-url>
 cd Deep_Learning_Specialization
+# If you want lecture videos (requires Git LFS):
+git lfs install   # one-time per machine
+git lfs pull      # download LFS-tracked files
 ```
 
 ## Progress Tracking
