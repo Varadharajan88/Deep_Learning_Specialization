@@ -1,6 +1,6 @@
-# Projects
+# Projects (Course 1)
 
-This directory contains hands-on projects and assignments from the Deep Learning Specialization courses.
+This directory contains hands-on projects and assignments for **Course 1: Neural Networks and Deep Learning**. Course 2+ assignments live under `courses/02-Improving_Deep_Neural_Networks/projects/` (and the matching folders for later courses).
 
 ## Course 1: Neural Networks and Deep Learning
 - [ ] Project 1: Cat vs Non-Cat Classifier

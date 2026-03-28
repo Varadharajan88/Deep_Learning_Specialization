@@ -102,7 +102,7 @@ git lfs pull   # download all LFS files (e.g. lecture videos)
 ### Adding new videos
 Videos are auto-tracked via `.gitattributes`. Add and commit as usual:
 ```bash
-git add "Lecture Videos/SomeLecture.mp4"
+git add "courses/02-Improving_Deep_Neural_Networks/lecture_videos/SomeLecture.mp4"
 git commit -m "Add lecture video"
 git push
 ```
